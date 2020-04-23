@@ -13,7 +13,7 @@ public class Attachment {
 
     // TODO: implement private fields for each of the following attachment JSON keys:
     // "fallback"
-    // color;
+    // "color"
     // "pretext"
     // "author_name"
     // "author_link"
