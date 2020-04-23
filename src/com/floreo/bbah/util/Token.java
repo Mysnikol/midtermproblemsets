@@ -9,7 +9,7 @@ public class Token {
 
     public static String findApiToken() {
 
-        String apiKey = "";
+        String apiKey = "xoxb-993126746963-1079637772162-dql31ZvMA1Y5A0gW0GTlWjh6";
 
         File file = new File("api_token.txt");
         System.out.println(file.getAbsolutePath());
