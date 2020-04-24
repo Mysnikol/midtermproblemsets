@@ -12,7 +12,7 @@ import de.ralleytn.simple.json.JSONObject;
 
 public class User {
 
-    // TODO: implement private fields for each of the following user JSON keys:
+    // implement private fields for each of the following user JSON keys:
 
      private String id; // demo
      private String name; // State Facts
@@ -74,7 +74,7 @@ public class User {
         }
     }
 
-    // TODO add getters to access private fields
+    // add getters to access private fields
     public String getId() {
         return id;
     }
