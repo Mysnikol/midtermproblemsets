@@ -17,7 +17,7 @@ public class User {
      private String id; // demo
      private String name; // State Facts
 
-     private Boolean deleted; // false
+     private Boolean isDeleted; // false
      private String color; // purple
      private Object profile;
 
@@ -31,7 +31,7 @@ public class User {
      private Boolean hasFiles;
 
     public User(JSONObject json) {
-        // TODO: parse a user from the incoming json
+        // parse a user from the incoming json
 
         if (json.get("id") != null) {
             this.id = (String) json.get("id");
@@ -39,8 +39,8 @@ public class User {
         if (json.get("name") != null) {
             this.name = (String) json.get("name");
         }
-        if (json.get("deleted") != null) {
-            this.deleted = (Boolean) json.get("deleted");
+        if (json.get("is_deleted") != null) {
+            this.isDeleted = (Boolean) json.get("is_deleted");
         }
         if (json.get("color") != null) {
             this.color = (String) json.get("color");
@@ -78,10 +78,43 @@ public class User {
     public String getId() {
         return id;
     }
+    public String getName() {
+        return name;
 
         }
+    public Boolean getIsDeleted() {
+        return isDeleted;
 
     }
-
+    public String getColor() {
+        return color;
+    }
+    public Object getProfile() {
+        return profile;
+    }
+    public Boolean getIsAdmin() {
+        return isAdmin;
+    }
+    public Boolean getIsOwner() {
+        return isOwner;
+    }
+    public Boolean getIsPrimaryOwner() {
+        return isPrimaryOwner;
+    }
+    public Boolean getIsRestricted() {
+        return isRestricted;
+    }
+    public Boolean getIsUltraRestrictedr() {
+        return isUltraRestricted;
+    }
+    public Boolean getHas2fa() {
+        return has2fa;
+    }
+    public Enum getTwoFactorType() {
+        return twoFactorType;
+    }
+    public Boolean getHasFiles() {
+        return hasFiles;
+    }
 }
 
