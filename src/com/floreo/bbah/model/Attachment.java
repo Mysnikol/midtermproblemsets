@@ -14,7 +14,7 @@ public class Attachment {
     // TODO: implement private fields for each of the following attachment JSON keys:
     // Mysnikol added generic code until she figures out what ACTUALLY needs to be entered
     {
-        "channel":"CBR2V3XEX",
+        "Channel":"CBR2V3XEX",
             "attachments": [
         {
             "fallback":"Plain-text summary of the attachment.",
